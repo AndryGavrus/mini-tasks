@@ -1,3 +1,4 @@
+// 28.11.2023
 // Initializing Variables with the Assignment Operator
 var a=9;
 
@@ -22,3 +23,36 @@ var titleCaseOver;
 studlyCapVar = 10;
 properCamelCase = "A String";
 titleCaseOver = 9000;
+
+// 29.11.2023
+// Explore Differences Between the var and let Keywords
+let catName = "Oliver";
+let catSound = "Meow!";
+// Unlike var, when you use let, a variable with the same name can only be declared once.
+
+// Declare a Read-Only Variable with the const Keyword
+const FCC = "freeCodeCamp"; // Change this line
+let fact = "is cool!"; // Change this line
+fact = "is awesome!";
+console.log(FCC, fact); // Change this line
+// t is common for developers to use uppercase variable identifiers for immutable values and lowercase or camelCase for mutable values (objects and arrays).
+
+// Add Two Numbers with JavaScript
+const sum = 10 + 10;
+
+// Subtract One Number from Another with JavaScript
+const difference = 45 - 33;
+
+// Multiply Two Numbers with JavaScript
+const product = 8 * 10;
+
+//  Divide One Number by Another with JavaScript
+const quotient = 66 / 33;
+
+// Increment a Number with JavaScript
+let myVar = 87;
+myVar++;
+
+// Decrement a Number with JavaScript
+let myVar = 11;
+myVar--;
