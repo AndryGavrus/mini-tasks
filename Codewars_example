@@ -111,3 +111,51 @@ function animal(obj){
     
   return "This "+ obj.color + " " + obj.name + " has " + obj.legs + " legs."
 } // or obj={name:"dog",legs:4,color:"white"} 
+
+// 01.12.2023
+// if..else and ternary operator
+function saleHotdogs(n){
+  if (n < 5) return (n * 100);
+  else if ( n >= 5 && n < 10) return (n * 95);
+  else return (n * 90);
+}
+
+// Conditional statement--switch
+function howManydays(month){
+  var days;
+  switch (month){
+  case 2:
+      days = 28;
+      break;
+  case 4:
+      days = 30;
+      break;
+       case 6:
+      days = 30;
+      break;
+       case 9:
+      days = 30;
+      break;
+       case 11:
+      days = 30;
+      break;
+      
+  default:
+      days = 31;
+  }
+  return days;
+}
+
+//  loop statement --while and do..while
+function padIt(str,n){
+var num=1;
+  while(num<=n){
+    if(num%2){
+      str ='*'+ str;
+    }else{
+      str = str + '*';
+    }
+    num++;
+  }
+  return str;
+}
