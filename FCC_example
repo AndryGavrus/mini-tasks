@@ -107,3 +107,32 @@ const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 
 // Quoting Strings with Single Quotes
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+// 01.12.2023
+// Escape Sequences in Strings
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+/* Code	Output
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\t	tab
+\r	carriage return
+\b	backspace
+\f	form feed */
+
+// Concatenating Strings with Plus Operator
+const myStr = "This is the start. "+"This is the end.";
+
+// Concatenating Strings with the Plus Equals Operator
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+
+// Constructing Strings with Variables
+const myName = "ANDY";
+const myStr = "My name is " + myName + " and I am well!";
+
+// Appending Variables to Strings
+const someAdjective = "awesome!";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
