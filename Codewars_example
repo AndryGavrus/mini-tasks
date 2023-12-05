@@ -264,3 +264,31 @@ function removeChar(str){
 function noSpace(x){
   return x.replace(/\s/g, '');
 }
+
+// 05.12.2023
+// Opposites Attract
+function lovefunc(flower1, flower2){
+ if (flower1 % 2 === 0 && flower2 % 2 === 1 || flower1 % 2 === 1 && flower2 % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// Beginner Series #2 Clock
+function past(h, m, s){
+  const convertHours = h * 60 * 60 * 1000;
+  const convertMinutes = m * 60 * 1000;
+  const convertSeconds = s * 1000;
+return convertHours + convertMinutes + convertSeconds;
+}
+
+// Get the Middle Character
+function getMiddle(s)
+{
+  let evenOdd = s.length % 2 === 0
+  let minMid = s.charAt(s.length/2-1)
+  let mid = s.charAt(s.length/2)
+  
+  return (evenOdd == true)? minMid.concat(mid): mid
+}
