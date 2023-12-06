@@ -323,3 +323,111 @@ unction welcomeToBooleans() {
   return true; // Change this line
 }
 
+//06.12.2023
+// Use Conditional Logic with If Statements
+  function trueOrFalse(wasThatTrue) {
+ if (wasThatTrue) {
+    return "Yes, that was true";
+  }
+  return "No, that was false";
+  }
+
+// Comparison with the Equality Operator
+  function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+// Comparison with the Strict Equality Operator
+  function testStrict(val) {
+  if (val === 7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+// Practice comparing different values
+  unction compareEquality(a, b) {
+  if (a === b) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+// Comparison with the Inequality Operator
+  function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+// Comparison with the Strict Inequality Operator
+  function testStrictNotEqual(val) {
+  if (val !== 17) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+// Comparison with the Greater Than Operator
+  function testGreaterThan(val) {
+  if (val > 100) {  // Change this line
+    return "Over 100";
+  }
+  if (val > 10) {  // Change this line
+    return "Over 10";
+  }
+  return "10 or Under";
+}
+
+// Comparison with the Greater Than Or Equal To Operator
+  function testGreaterOrEqual(val) {
+  if (val >= 20) {  // Change this line
+    return "20 or Over";
+  }
+  if (val >= 10) {  // Change this line
+    return "10 or Over";
+  }
+  return "Less than 10";
+}
+
+// Comparison with the Less Than Operator
+  function testLessThan(val) {
+  if (val < 25) {  // Change this line
+    return "Under 25";
+  }
+  if (val < 55) {  // Change this line
+    return "Under 55";
+  }
+  return "55 or Over";
+}
+
+// Comparison with the Less Than Or Equal To Operator
+  function testLessOrEqual(val) {
+  if (val <= 12) {  // Change this line
+    return "Smaller Than or Equal to 12";
+  }
+  if (val <= 24) {  // Change this line
+    return "Smaller Than or Equal to 24";
+  }
+  return "More Than 24";
+}
+
+// Comparisons with the Logical And Operator
+  function testLogicalAnd(val) {
+   if (val >= 25 && val <=50) {
+         return "Yes";
+    }
+     return "No";
+}
+// Comparisons with the Logical Or Operator
+  function testLogicalOr(val) {
+    if (val > 20 || val < 10) {
+    return "Outside";
+  }
+   return "Inside";
+}
+
