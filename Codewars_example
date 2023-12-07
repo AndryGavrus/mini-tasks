@@ -312,3 +312,20 @@ function getMiddle(s)
   return data.map(determineMembership);
 }
 
+// 07.12.2023
+// A Needle in the Haystack
+  function findNeedle(haystack) {
+   let newStr = haystack.indexOf("needle");
+    return "found the needle at position " + newStr;
+}
+
+// Opposite number
+  function opposite(number) {
+  return(-number);
+}
+
+// Abbreviate a Two Word Name
+  function abbrevName(name){
+  var nameArray = name.split(" ");
+  return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+}
