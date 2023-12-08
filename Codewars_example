@@ -329,3 +329,44 @@ function getMiddle(s)
   var nameArray = name.split(" ");
   return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
 }
+
+// 08.12.2023
+// Reversed Strings
+  function solution(str){
+ let array = str.split("");
+    array.reverse()
+        return array.join("") 
+}
+
+// Count of positives / sum of negatives
+  function countPositivesSumNegatives(input) {
+ let positiveNums = 0;
+    let negativeNums = 0;
+    if (input === null || input.length === 0) {
+      return [];
+    } else {
+      input.forEach((num) => num > 0 ? positiveNums++ : negativeNums += num);
+    }
+    return [positiveNums , negativeNums];
+}
+
+// MakeUpperCase
+  function makeUpperCase(str) {
+let Str = '';
+let newStr = str.toUpperCase() 
+   return newStr 
+}
+
+// String ends with?
+  function solution(str, ending){
+  return str.indexOf(ending, str.length - ending.length) !== -1;
+}
+
+// Convert boolean values to strings 'Yes' or 'No'.
+  function boolToWord( bool ){
+  if (bool == true) {
+    return 'Yes'
+  } else {
+    return 'No'
+  }
+}
