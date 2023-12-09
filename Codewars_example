@@ -370,3 +370,35 @@ let newStr = str.toUpperCase()
     return 'No'
   }
 }
+
+// 09.12.2023
+// Number of People in the Bus
+  var number = function(busStops){
+    var upSum=0;
+     var downSum=0;
+    for(var i=0; i<busStops.length; i++){
+      upSum+=busStops[i][0];
+       downSum+=busStops[i][1];
+    }   
+  var last=upSum-downSum;
+   return last;
+}
+
+// Ones and Zeros
+  const binaryArrayToNumber = arr => {
+  return Number.parseInt(arr.join(""), 2);
+};
+
+// Fake Binary
+  function fakeBin(x){
+      let myArray = x.split("");
+    let newString = new String;
+    for (let i = 0; i < myArray.length; i++){
+      if(myArray[i]>=5){
+        newString+="1";
+      } else {
+        newString+="0";
+      }
+    }
+    return newString;
+}
