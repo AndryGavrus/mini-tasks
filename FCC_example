@@ -633,3 +633,29 @@ function cc(card) {
   }
  }
 
+// 09.12.2023
+// Build JavaScript Objects
+  const myDog = {
+   "name": "Gav-Gav",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["People", "Dogs"]
+ };
+
+// Accessing Object Properties with Dot Notation
+  const testObj = {
+  hat: "ballcap",
+  shirt: "jersey",
+  shoes: "cleats"
+};
+const hatValue = testObj.hat;     
+const shirtValue = testObj.shirt;
+
+// Accessing Object Properties with Bracket Notation
+  const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+const entreeValue = testObj["an entree"];  
+const drinkValue = testObj["the drink"];
