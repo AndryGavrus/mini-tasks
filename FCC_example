@@ -669,3 +669,96 @@ const drinkValue = testObj["the drink"];
 };
 const playerNumber = 16;  
 const player = testObj[playerNumber];
+
+// 11.12.2023
+// Updating Object Properties
+  const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+  myDog.name = 'Happy Coder';
+
+// Add New Properties to a JavaScript Object
+  const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+myDog.bark = 'woof';
+
+// Delete Properties from a JavaScript Object
+  const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+delete myDog.tails;
+
+// Using Objects for Lookups
+  function phoneticLookup(val) {
+  let result = "";
+  var lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  };
+  result = lookup[val];
+  return result;
+}
+
+// Testing Objects for Properties
+  function checkObj(obj, checkProp) {
+  // Only change code below this line
+ if (obj.hasOwnProperty(checkProp)){
+   return obj[checkProp];
+ } else {
+   return 'Not Found';
+ }
+}
+
+// Manipulating Complex Objects
+  const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }, 
+  {
+   "artist": "Daft Punk",
+    "title": "Homework",
+    "release_year": 1997,
+    "formats": [ 
+      "CD", 
+      "Cassette", 
+      "LP"
+    ] 
+  }
+];
+
+// Accessing Nested Objects
+  const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+const gloveBoxContents = myStorage.car.inside['glove box'];
