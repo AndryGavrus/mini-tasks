@@ -409,3 +409,25 @@ let newStr = str.toUpperCase()
    return Math.floor(year/100) + ((year%100) ? 1 : 0)
   return;
 }
+
+// 11.12.2023
+// Reverse words
+  function reverseWords(str) {
+  str = str.split(' ');
+  str = str.map(x => x.split('').reverse());
+  str = str.map(x => x.join(''));
+  return str.join(' ');
+}
+
+// Highest and Lowest
+  function highAndLow(numbers){
+  const arr = numbers.split(' ').map(Number);
+  let highest = arr[0];
+  let lowest = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > highest) highest = arr[i];
+    if (arr[i] < lowest) lowest = arr[i];
+  }
+  return highest + ' ' + lowest;
+}
+
