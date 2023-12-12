@@ -431,3 +431,27 @@ let newStr = str.toUpperCase()
   return highest + ' ' + lowest;
 }
 
+
+// 12.12.2023
+// Convert a Number to a String!
+  function numberToString(num) {
+  return String(num);
+}
+
+// Even or Odd
+  function evenOrOdd(number) {
+  if(number % 2 === 0) {
+      return 'Even';
+    } else {
+      return 'Odd';
+    }
+}
+
+// Sentence Smash
+  function smash (words) {
+  if (words.length===0){
+    return ""
+  } else {
+    return words.join(" ")
+  }
+};
