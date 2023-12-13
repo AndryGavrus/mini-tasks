@@ -455,3 +455,11 @@ let newStr = str.toUpperCase()
     return words.join(" ")
   }
 };
+
+// 13.12.2023
+// Descending Order
+  function descendingOrder(n){
+   var m = n.toString().split('');
+if(m.length === 1) {return n};
+return +m.sort().reverse().join('');
+}
