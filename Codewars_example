@@ -463,3 +463,15 @@ let newStr = str.toUpperCase()
 if(m.length === 1) {return n};
 return +m.sort().reverse().join('');
 }
+
+// 14.12.2023
+// Convert number to reversed array of digits
+  function digitize(n) {
+let str = n.toString();
+  let arr = [];
+  for (let i = 0; i < str.length; i++) {
+    arr.push(Number(str[i]))
+  }
+  return arr.reverse()
+}
+
