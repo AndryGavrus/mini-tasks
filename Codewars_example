@@ -497,3 +497,17 @@ let str = n.toString();
    return value1 / value2;
   }
 }
+
+// 17.12.2023
+// Calculate average
+  function findAverage(array) {
+  if (array == 0) {
+    return 0;
+  } else {
+    let arr = 0;
+  for (let i = 0; i < array.length; i++) {
+    arr += array[i];
+  }
+    return arr / array.length
+  }
+}
