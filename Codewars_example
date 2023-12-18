@@ -511,3 +511,12 @@ let str = n.toString();
     return arr / array.length
   }
 }
+
+// 18.12.2023
+// Count by X
+  function countBy(x, n) {
+    let z = [];
+  let arr = Array(n).fill().map((e, i) => i + 1)
+  z = arr.map((el) => el*x)
+    return z;
+  }
