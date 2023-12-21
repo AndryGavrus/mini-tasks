@@ -560,3 +560,12 @@ var max = function(list){
   return Math.floor (time*0.5);
 }
 
+// 21.12.2023
+// If you can't sleep, just count sheep
+  var countSheep = function (num){
+  let result = "";
+  for (let i = 1; i <= num; i++) {
+        result += `${i} sheep...`;
+  }
+  return result;
+}
