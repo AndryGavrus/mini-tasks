@@ -1122,6 +1122,7 @@ function makeList(arr) {
    return ({ name, age, gender});
   };
 
+// 24.12.2023
 // Write Concise Declarative Functions with ES6
   const bicycle = {
   gear: 2,
