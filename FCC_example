@@ -1131,6 +1131,7 @@ function makeList(arr) {
   }
 };
 
+// 25.12.2023
 // Use class Syntax to Define a Constructor Function
   class Vegetable {
   constructor(name) {
