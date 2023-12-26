@@ -1139,6 +1139,7 @@ function makeList(arr) {
   }
 }
 
+// 26.12.2023
 // Use getters and setters to Control Access to an Object
   class Thermostat {
   constructor(fahrenheit) {
