@@ -35,7 +35,8 @@ const FCC = "freeCodeCamp"; // Change this line
 let fact = "is cool!"; // Change this line
 fact = "is awesome!";
 console.log(FCC, fact); // Change this line
-// t is common for developers to use uppercase variable identifiers for immutable values and lowercase or camelCase for mutable values (objects and arrays).
+// t is common for developers to use uppercase variable identifiers for 
+immutable values and lowercase or camelCase for mutable values (objects and arrays).
 
 // Add Two Numbers with JavaScript
 const sum = 10 + 10;
