@@ -31,12 +31,12 @@ function equal1(){
       b = v1;   
   return a + b;
 }
-//Please refer to the example above to complete the following functions
-function equal2(){
+// Please refer to the example above to complete the following functions
+  function equal2(){
   let a =  v3, //set number value to a
       b =  v1; //set number value to b
   return a - b;
-}
+  }
 function equal3(){
   let a =  v1, //set number value to a
       b =  v5; //set number value to b
