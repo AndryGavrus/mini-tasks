@@ -111,7 +111,7 @@ const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
 // 01.12.2023
 // Escape Sequences in Strings
-const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+  const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 /* Code	Output
 \'	single quote
 \"	double quote
