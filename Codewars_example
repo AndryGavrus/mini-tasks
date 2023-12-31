@@ -315,9 +315,9 @@ function getMiddle(s)
 // 07.12.2023
 // A Needle in the Haystack
   function findNeedle(haystack) {
-   let newStr = haystack.indexOf("needle");
-    return "found the needle at position " + newStr;
-}
+  let newStr = haystack.indexOf("needle");
+  return "found the needle at position " + newStr;
+  }
 
 // Opposite number
   function opposite(number) {
