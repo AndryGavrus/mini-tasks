@@ -148,13 +148,13 @@ const lastName = "Lovelace";
 lastNameLength = lastName.length;
 
 // Use Bracket Notation to Find the First Character in a String
-let firstLetterOfLastName = "";
-const lastName = "Lovelace";
-firstLetterOfLastName = lastName[0];
+  let firstLetterOfLastName = "";
+  const lastName = "Lovelace";
+  firstLetterOfLastName = lastName[0];
 
 // Understand String Immutability
-let myStr = "Jello World";
-myStr = "Hello World"; 
+  let myStr = "Jello World";
+  myStr = "Hello World"; 
 
 // Use Bracket Notation to Find the Nth Character in a String
 const lastName = "Lovelace";
