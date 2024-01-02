@@ -147,8 +147,8 @@ function howManydays(month){
 }
 
 //  loop statement --while and do..while
-function padIt(str,n){
-var num=1;
+  function padIt(str,n){
+  var num=1;
   while(num<=n){
     if(num%2){
       str ='*'+ str;
