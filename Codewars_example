@@ -49,7 +49,7 @@ function equal4(){
 }
 function equal5(){
   let a =  v2, //set number value to a
-      b = v4; //set number value to b
+  b = v4; //set number value to b
   return a % b;
 
 // Basic data types--String
