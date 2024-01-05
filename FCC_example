@@ -26,9 +26,9 @@ var myLastName= 'AN';
 
 // 29.11.2023
 // Explore Differences Between the var and let Keywords
-let catName = "Oliver";
-let catSound = "Meow!";
-// Unlike var, when you use let, a variable with the same name can only be declared once.
+  let catName = "Oliver";
+  let catSound = "Meow!";
+  // Unlike var, when you use let, a variable with the same name can only be declared once.
 
 // Declare a Read-Only Variable with the const Keyword
   const FCC = "freeCodeCamp"; // Change this line
