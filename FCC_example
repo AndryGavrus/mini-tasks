@@ -3,8 +3,8 @@
 var a=9;
 
 // Declare String Variables
-var myFirstName= 'GA';
-var myLastName= 'AN';
+  var myFirstName= 'GA';
+  var myLastName= 'AN';
 
 // Understanding Uninitialized Variables
   var a=5;
