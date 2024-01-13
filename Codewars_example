@@ -175,20 +175,20 @@ function howManydays(month){
   }
 
 // loop statement --break,continue
-function grabDoll(dolls){
-  var bag=[];
-  //coding here
-  for (let i = 0; i < dolls.length; i++) {
-   if(bag.length === 3)  {
-      break;
+  function grabDoll(dolls){
+    var bag=[];
+    //coding here
+    for (let i = 0; i < dolls.length; i++) {
+     if(bag.length === 3)  {
+        break;
+      }
+      else if (dolls[i] == 'Hello Kitty' || dolls[i] == 'Barbie doll') {
+        bag.push(dolls[i])  
+        continue;
+      } 
     }
-    else if (dolls[i] == 'Hello Kitty' || dolls[i] == 'Barbie doll') {
-      bag.push(dolls[i])  
-      continue;
-    } 
+    return bag;
   }
-  return bag;
-}
 
 // 03.12.2023
 // loop statement --for..in and for..of
