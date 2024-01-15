@@ -1188,3 +1188,18 @@ export {uppercaseString, lowercaseString}
 // Import a Default Export
   import subtract from "./math_functions.js"
   subtract(7,4);
+
+// 15.01.2024
+// Create a JavaScript Promise
+  const makeServerRequest = new Promise((resolve, reject) => {
+  
+  });  
+// Complete a Promise with resolve and reject
+  const makeServerRequest = new Promise((resolve, reject) => {
+  let responseFromServer;
+     if(responseFromServer) {
+    resolve ("We got the data");
+  } else {  
+    reject ("Data not received");
+  }
+});
