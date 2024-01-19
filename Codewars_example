@@ -265,13 +265,13 @@ function noSpace(x){
 
 // 05.12.2023
 // Opposites Attract
-function lovefunc(flower1, flower2){
- if (flower1 % 2 === 0 && flower2 % 2 === 1 || flower1 % 2 === 1 && flower2 % 2 === 0) {
-    return true;
-  } else {
-    return false;
+  function lovefunc(flower1, flower2){
+   if (flower1 % 2 === 0 && flower2 % 2 === 1 || flower1 % 2 === 1 && flower2 % 2 === 0) {
+      return true;
+    } else {
+      return false;
+    }
   }
-}
 
 // Beginner Series #2 Clock
 function past(h, m, s){
