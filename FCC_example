@@ -60,7 +60,7 @@ myVar--;
 
 // 30.11.2023
 // Create Decimal Numbers with JavaScript
-const myDecimal = 5.7;
+  const myDecimal = 5.7;
 
 // Multiply Two Decimals with JavaScript
 const product = 2.0 * 2.5;
