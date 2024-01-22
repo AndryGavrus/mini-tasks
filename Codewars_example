@@ -158,7 +158,7 @@ function saleHotdogs(n){
     num++;
   }
   return str;
-}
+  }
 
 // 02.12.2023
 //  loop statement --for
