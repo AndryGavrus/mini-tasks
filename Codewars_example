@@ -214,13 +214,13 @@ function saleHotdogs(n){
   }
 
 // Methods of Number object--toString() and toLocaleString()
-function colorOf(r,g, b){
-return "#" + toHex(r)+ toHex(g)+ toHex(b);
-}
-function toHex(n){
-var result = n.toString(16);
-return result.length == 1 ? "0" + result : result;
-}
+  function colorOf(r,g, b){
+  return "#" + toHex(r)+ toHex(g)+ toHex(b);
+  }
+  function toHex(n){
+  var result = n.toString(16);
+  return result.length == 1 ? "0" + result : result;
+  }
 
 // 04.12.2023
 // Chuck Norris VII - True or False?
