@@ -10,7 +10,7 @@
         sum+=1;
       }
     return sum;
-}
+  }
 
 //  create your first JS function and print "Hello World!"
   function helloWorld () {
