@@ -16,7 +16,7 @@
   function helloWorld () {
   var str='Hello World!';
   console.log(str);
-}
+  }
 
 // 29.11.2023
 //  Basic data types--Number
