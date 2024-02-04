@@ -19,7 +19,7 @@
   }
 
 // 29.11.2023
-//  Basic data types--Number
+//  Basic data types-Number
   let v1 = 50,
       v2 = 100,
       v3 = 150,
