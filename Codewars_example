@@ -83,7 +83,7 @@ function banana(){
 // 30.11.2023
 // Basic data types--Array
   function getLength(arr){
-  //return length of arr
+//return length of arr
   return arr.length
 }
 function getFirst(arr){
