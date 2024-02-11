@@ -1296,3 +1296,9 @@ makeServerRequest.then(result => {
   let quoteSample = "3 blind mice.";
   let myRegex = /[^aeiou0-9]/gi; 
   let result = quoteSample.match(myRegex);
+
+// 11.02.2024
+// Match Characters that Occur One or More Times
+  let difficultSpelling = "Mississippi";
+  let myRegex = /s+/g; 
+  let result = difficultSpelling.match(myRegex);
