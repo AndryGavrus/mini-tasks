@@ -1383,3 +1383,14 @@ makeServerRequest.then(result => {
   let favWord = "favorite";
   let favRegex = /favou?rite/; 
   let result = favRegex.test(favWord);
+
+// 19.02.2024
+// Positive and Negative Lookahead
+  let sampleWord = "astronaut";
+  let pwRegex = /(?=\w{6})(?=\w*\d{2})/; 
+  let result = pwRegex.test(sampleWord);
+
+// Check For Mixed Grouping of Characters
+  let myString = "Eleanor Roosevelt";
+  let myRegex = /(Franklin|Eleanor) (([A-Z]\.?|[A-Z][a-z]+) )?Roosevelt/;
+  let result = myRegex.test(myString);
