@@ -511,7 +511,7 @@ let str = n.toString();
 }
 
 // 18.12.2023
-// Count by X
+// Count by x
   function countBy(x, n) {
     let z = [];
   let arr = Array(n).fill().map((e, i) => i + 1)
