@@ -587,3 +587,24 @@ var max = function(list){
   let x = Math.ceil (month/3)
   return x
 }
+
+
+// 21.02.2024
+// Will you make it?
+  const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+   if (distanceToPump === mpg*fuelLeft || distanceToPump < mpg*fuelLeft) {
+    return true
+  }
+  else {
+    return false
+  }
+};
+
+// Keep up the hoop
+  function hoopCount (n) {
+   if (n >= 10) {
+     return "Great, now move on to tricks"
+   }   else {
+     return "Keep at it until you get it"
+   } 
+}
