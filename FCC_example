@@ -4,7 +4,7 @@
 
 // Declare String Variables
   var myFirstName= 'GA';
-  var myLastName= 'AND';
+  var myLastName= 'AN';
 
 // Understanding Uninitialized Variables
   var a=5;
