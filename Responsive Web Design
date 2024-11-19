@@ -1,1 +1,46 @@
+// 19.11.2024
+// Step 1
+  <html>
+    <body>
+      <h1>CatPhotoApp</h1>
+    </body>
+  </html>
 
+// Step 2
+  <html>
+    <body>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+    </body>
+  </html>
+
+// Step 3
+  <html>
+    <body>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <p>Everyone loves cute cats online!</p>
+    </body>
+  </html>
+
+// Step 4
+  <html>
+    <body>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <!--TODO: Add link to cat photos-->
+      <p>Everyone loves cute cats online!</p>
+    </body>
+  </html>
+
+// Step 5
+  <html>
+    <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>Everyone loves cute cats online!</p>
+      </main>
+    </body>
+  </html>
