@@ -45,3 +45,14 @@ console.log(character);
   let secondCharacter;
   secondCharacter = "Test";
   console.log(secondCharacter);
+
+// Step 11
+  let character = 'Hello';
+  console.log(character);
+  character = "World";
+  let secondCharacter;
+  secondCharacter = character;
+  console.log(secondCharacter);
+
+// Step 12
+  let character = 'Hello';
