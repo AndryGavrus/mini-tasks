@@ -67,3 +67,21 @@ console.log(character);
 // Steps 14; 15
   let character = 'Hello';
   let count  = 8;
+
+// 21.11.2024
+// Step 16
+  let character = 'Hello';
+  let count = 8;
+  console.log(count+1)
+
+// Step 17-18
+  let character = 'Hello';
+  let count = 8;
+  let rows = [];
+
+// Step 19-20
+  let character = 'Hello';
+  let count = 8;
+  let rows = ["Naomi", "Quincy", "CamperChan"];
+  console.log(rows[0])
+  
