@@ -1556,3 +1556,29 @@ function zeroArray(m, n) {
   const arr = [2, 4, 5, 1, 7, 5, 2, 1];
   arr.splice(1,4)
   console.log(arr);
+
+// 22.11.2024
+// Add Items Using splice()
+  function htmlColorNames(arr) {
+     arr.splice(0,2,'DarkSalmon', 'BlanchedAlmond')
+       return arr;
+  }
+    console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
+
+// Copy Array Items Using slice()
+  function forecast(arr) {
+       arr = arr.slice(2,4)
+    return arr;
+  }
+    console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+
+// Copy an Array with the Spread Operator
+  function copyMachine(arr, num) {
+    let newArr = [];
+    while (num >= 1) {
+   newArr.push([...arr])
+      num--;
+    }
+    return newArr;
+  }
+  console.log(copyMachine([true, false, true], 2));
