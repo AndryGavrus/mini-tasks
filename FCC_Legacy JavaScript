@@ -1582,3 +1582,50 @@ function zeroArray(m, n) {
     return newArr;
   }
   console.log(copyMachine([true, false, true], 2));
+
+// 25.11.2024
+// Combine Arrays with the Spread Operator
+  function spreadOut() {
+    let fragment = ['to', 'code'];
+    let sentence = ["learning", ...fragment, "is", "fun"]; 
+    return sentence;
+  }
+  console.log(spreadOut());
+
+// Check For The Presence of an Element With indexOf()
+  function quickCheck(arr, elem) {
+   return arr.indexOf(elem) !== -1
+   }
+  console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+
+// Iterate Through All an Array's Items Using For Loops
+  function filteredArray(arr, elem) {
+    let newArr = [];
+   for (let i = 0; i < arr.length; i++) {
+     if (arr[i].indexOf(elem) == -1) {
+        newArr.push(arr[i]);
+      }
+    }
+    return newArr;
+  }
+  console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));
+
+// Create complex multi-dimensional arrays
+  let myNestedArray = [
+ 'level 1',                   /* myNestedArray[0]             */
+  ['level 2'],	               /* myNestedArray[1][0]          */
+  [['level 3','deep']],	       /* myNestedArray[2][0][0]       */
+  [[['level 4','deeper']]],    /* myNestedArray[3][0][0][0]    */
+  [[[['level 5','deepest']]]]  /* myNestedArray[4][0][0][0][0] */
+];
+
+// Add Key-Value Pairs to JavaScript Objects
+    const foods = {
+    apples: 25,
+    oranges: 32,
+    plums: 28
+  };
+  foods.bananas = 13;
+  foods.grapes = 35;
+  foods.strawberries  = 27;
+  console.log(foods);
