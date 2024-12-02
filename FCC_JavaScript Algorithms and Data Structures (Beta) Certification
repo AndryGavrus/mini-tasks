@@ -104,3 +104,8 @@ console.log(character);
   console.log(cities);
   console.log(rows);
 
+// 02.12.2024
+// Steps 26-30
+  let character = "Hello";
+  let count = 8;
+  let rows = [];
