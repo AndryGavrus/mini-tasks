@@ -1878,3 +1878,21 @@ repeatStringNumTimes("abc", 3);
      return arr.find(func);
   }
   findElement([1, 2, 3, 4], num => num % 2 === 0);
+
+// 13.02.2025
+// Boo who
+   function booWho(bool) {
+    return typeof bool === "boolean";
+   }
+   booWho(null);
+
+// Title Case a Sentence
+   function titleCase(str) {
+     return str
+       .toLowerCase()
+       .split(" ")
+       .map(val => val.replace(val.charAt(0), val.charAt(0).toUpperCase()))
+       .join(" ");
+   }
+   
+   titleCase("I'm a little tea pot");
